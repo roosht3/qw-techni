@@ -2,7 +2,7 @@
     "name": "rooshan/technicality",
     "type": "qore-works-module",
     "require": {
-        "rooshan/qore-works": "1.0.15"
+        "rooshan/qore-works": "*"
     },
     "description": "",
     "authors": [
