@@ -1,0 +1,7 @@
+{
+    "name": "rooshan/technicality",
+    "type": "qore-works-module",
+    "require": {
+        "rooshan/qore-works": "1.0.14"
+    }
+}
