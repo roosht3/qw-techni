@@ -2,6 +2,28 @@
     "name": "rooshan/technicality",
     "type": "qore-works-module",
     "require": {
-        "rooshan/qore-works": "1.0.14"
+        "rooshan/qore-works": "1.0.15"
+    },
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\User\\Providers\\UserServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\User\\": ""
+        }
     }
 }
